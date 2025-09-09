@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantasec | Aviso Legal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FF7A00;
+            --primary-light: rgba(255, 122, 0, 0.3);
+            --dark: #0a0a0a;
+            --light: #f5f5f5;
+            --grey: #1a1a1a;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        body {
+            color: var(--light);
+            font-family: 'IBM Plex Mono', monospace;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(26, 26, 26, 0.8);
+            border: 1px solid var(--grey);
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 0 10px rgba(255, 122, 0, 0.3);
+        }
+
+        h2 {
+            color: var(--light);
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 1.5rem 0 1rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--light);
+            opacity: 0.9;
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #ff8a00;
+        }
+
+        footer {
+            background: rgba(26, 26, 26, 0.8);
+            padding: 1rem;
+            text-align: center;
+            margin-top: auto;
+            backdrop-filter: blur(5px);
+            border-top: 1px solid var(--grey);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .footer-link {
+            color: var(--light);
+            font-size: 0.8rem;
+            text-decoration: none;
+            opacity: 0.6;
+            transition: var(--transition);
+        }
+
+        .footer-link:hover {
+            opacity: 1;
+            color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.2rem; }
+            p { font-size: 0.9rem; }
+            .container { padding: 1.5rem; }
+            .footer-links { flex-direction: column; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aviso Legal</h1>
+        <p>Última actualización: [Fecha]</p>
+
+        <h2>1. Identificación del Responsable</h2>
+        <p>El sitio web [URL del sitio web] es operado por [Nombre de la empresa o persona], con domicilio en [Dirección], y correo electrónico de contacto: <a href="mailto:[correo electrónico]">[correo electrónico]</a>.</p>
+
+        <h2>2. Objeto</h2>
+        <p>Este Aviso Legal regula el uso del sitio web, incluyendo los servicios y contenidos ofrecidos por Pantasec, relacionados con ciberseguridad y formación en hacking ético.</p>
+
+        <h2>3. Condiciones de Uso</h2>
+        <p>Al acceder a este sitio web, aceptas:</p>
+        <ul>
+            <li>Utilizar el sitio de manera lícita y de acuerdo con las leyes aplicables.</li>
+            <li>No realizar actividades que puedan dañar el sitio o interferir con su funcionamiento.</li>
+            <li>Respetar los derechos de propiedad intelectual de los contenidos publicados.</li>
+        </ul>
+
+        <h2>4. Propiedad Intelectual</h2>
+        <p>Todos los contenidos del sitio web (textos, imágenes, videos, etc.) son propiedad de [Nombre de la empresa o persona] o de terceros que han autorizado su uso. Queda prohibida su reproducción sin autorización previa.</p>
+
+        <h2>5. Limitación de Responsabilidad</h2>
+        <p>[Nombre de la empresa o persona] no se hace responsable de:</p>
+        <ul>
+            <li>Errores o interrupciones en el acceso al sitio web.</li>
+            <li>Daños derivados del uso indebido de los contenidos o servicios ofrecidos.</li>
+            <li>Enlaces a sitios de terceros, cuyo contenido no controlamos.</li>
+        </ul>
+
+        <h2>6. Ley Aplicable y Jurisdicción</h2>
+        <p>Este Aviso Legal se rige por la legislación de [País]. Cualquier disputa será sometida a los tribunales de [Ciudad/País].</p>
+
+        <h2>7. Contacto</h2>
+        <p>Para cualquier consulta sobre este Aviso Legal, contáctanos en: <a href="mailto:[correo electrónico]">[correo electrónico]</a>.</p>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/privacy-policy" class="footer-link">Política de Privacidad</a>
+            <a href="/legal-notice" class="footer-link">Aviso Legal</a>
+            <a href="/" class="footer-link">Volver al Inicio</a>
+        </div>
+    </footer>
+</body>
+</html>
